@@ -18,17 +18,17 @@
 </head>
 
 <body>
-<section class="min-h-[95vh] w-[100vw] bg-[url('back.png')] bg-cover">
+<section class="min-h-[95vh] w-[100vw] gap[50px] bg-[url('back.png')] bg-cover">
 <header class="navbr w-[100%] h-[10vh] ;
     
     ">
-            <nav class="h-[100%] flex gap-4 justify-center text-white items-center">
-                <a href="index.php">Home</a>
-                <a href="client.php">Client</a>
-                <a href="compts.php">Compts</a>
-                <a href="transaction.php">Transactions</a>
-            </nav>
-        </header>
+                <nav class="h-[100%] flex gap-4 justify-center text-white items-center">
+                    <a href="index.php" class="hover:text-gray-200">Home</a>
+                    <a href="client.php" class="hover:text-gray-200">Client</a>
+                    <a href="compts.php" class="hover:text-gray-200">Compts</a>
+                    <a href="transaction.php" class="hover:text-gray-200">Transactions</a>
+                </nav>
+            </header>
 
     <?php
     $servername = "localhost";
@@ -125,8 +125,8 @@
         ?>
     </section>
 
-    <footer class="bg-black h-[5vh] border-l-8 border-r-8 border-white border-solid">
-        <h2 class="text-center text-white">copyright 2023</h2>
+    <footer class="text-center h-[5vh] text-white bg-black flex items-center justify-center">
+        <h2 >Copyright © 2030 Hashtag Developer. All Rights Reserved</h2>
     </footer>
 </body>
 
