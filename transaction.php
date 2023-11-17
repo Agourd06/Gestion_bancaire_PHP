@@ -39,7 +39,7 @@
     ?>
 
 
-        <h1 class="text-[55px] h-[10%] text-center text-white">Gestionaire Bancaire</h1>
+        <h1 class="text-[55px] h-[10%] mb-[20px] text-center text-white">Gestionaire Bancaire</h1>
 
         <?php
         // Check if the button is clicked and if the client_id is set
@@ -126,7 +126,7 @@
     </section>
 
     <footer class="bg-black h-[5vh] border-l-8 border-r-8 border-white border-solid">
-        <h2 class="text-center">copyright 2023</h2>
+        <h2 class="text-center text-white">copyright 2023</h2>
     </footer>
 </body>
 

@@ -95,7 +95,7 @@
             <td class = 'border-[2px] border-white border-solid w-[15%]'>
                 <form action='compts.php' method='post' h-[50vh] items-start'>
                     <input type='hidden' name='client_id' value='" . $row["id_client"] . "'>
-                    <input type='submit' class='hight-[80px] border-[2px] w-[100%] hover:bg-black border-black border-solid' name='submit' value='Compts'>
+                    <input type='submit' class='hight-[80px] cursor-pointer	 w-[100%] hover:bg-black bg-white hover:text-white text-black ' name='submit' value='Compts'>
                 </form>
             </td>
           </tr><br>";

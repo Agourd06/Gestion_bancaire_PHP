@@ -92,7 +92,7 @@
                     <td class = 'border-[2px] border-white border-solid w-[15%]'>" . $row["id_client"] . "</td>
                     <td class = 'border-[2px] border-white border-solid w-[15%]'>
                     <input type='hidden' name='compts_id' value='" . $row["id_compts"] . "'>
-                    <input type='submit' name='submit' class='hight-[80px] border-[2px] w-[100%] hover:bg-black border-black border-solid' value='transaction'>
+                    <input type='submit' name='submit' class='hight-[80px] cursor-pointer	  w-[100%] hover:bg-black bg-white hover:text-white text-black ' value='transaction'>
                 </td>
             </tr>";
                 }
@@ -129,7 +129,7 @@
                             
                             <td class = 'border-[2px] border-white border-solid w-[15%]'>
                                 <input type='hidden' name='compts_id' value='" . $row["id_compts"] . "'>
-                                <input type='submit' name='submit' class='hight-[80px] border-[2px] w-[100%] hover:bg-black border-black border-solid' value='transaction'>
+                                <input type='submit' name='submit' class='hight-[80px] cursor-pointer	  w-[100%] hover:bg-black bg-white hover:text-white text-black ' value='transaction'>
                             </td>
                         </tr>";
                 }
@@ -146,7 +146,7 @@
     </section>
 
     <footer class="bg-black h-[5vh] border-l-8 border-r-8 border-white border-solid">
-        <h2 class="text-center">copyright 2023</h2>
+        <h2 class="text-center text-white">copyright 2023</h2>
     </footer>
 </body>
 
